@@ -33,5 +33,6 @@
         "selectedIconPath": "images/hover-mine.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
