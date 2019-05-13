@@ -1,0 +1,55 @@
+/* compents/select/select.wxss */
+.com-selectBox{
+    width: 80px;
+}
+.com-sContent{
+    font-size: 16px;
+    position: relative;
+    left: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.com-sImg{
+    position: absolute;
+    right: 8px;
+    top: 11px;
+    width: 16px;
+    height: 9px;
+    transition: all .3s ease;
+}
+.com-sTxt{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0 20px 0 6px;
+    font-size: 12px;
+    color: #646464d0;
+}
+.com-sList{
+    background: white;
+    width: inherit;
+    position: absolute;
+    left: 14px;
+    border: 1px solid #e2e2e2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    box-sizing: border-box;
+    z-index: 3;
+    max-height: 200px;
+    overflow: auto;
+}
+.com-sItem{
+    height: 30px;
+    line-height: 30px;
+    /* border-top: 1px solid #e2e2e2; */
+    padding: 0 6px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.com-sItem:first-child{
+    border-top: none;
+}

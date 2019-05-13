@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<Select prop-array="{{selectArray}}" bind:myget="getDate"></Select>
