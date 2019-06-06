@@ -1,0 +1,2 @@
+<!--pages/weixinlink/agreement/agreement.wxml-->
+<web-view src="https://mp.weixin.qq.com/s/qL5CqdQnAOIP4m8muxLJ9g"></web-view>

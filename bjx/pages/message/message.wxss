@@ -1,1 +1,83 @@
 /* pages/message/message.wxss */
+page,
+.page,
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    text-align: center;
+}
+.weui-navbar__slider {
+    position:absolute;
+    content:" ";
+    left:0;
+    bottom:0;
+    /* width:10em; */
+    height:3px;
+    background-color:#000;
+    -webkit-transition:-webkit-transform .3s;
+    transition:-webkit-transform .3s;
+    transition:transform .3s;
+    transition:transform .3s,-webkit-transform .3s;
+}
+.weui-navbar__item.weui-bar__item_on {
+    color: #7a7a7a;
+}
+.time {
+    font-size: 12px;
+    color: #acaaaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.wuyi {
+    width: 95%;
+    height: 200px;
+    margin-top: 10px;
+}
+.text {
+    margin-bottom: 10px;
+}
+.details {
+    position: relative;
+    border-top: 1px solid #e0e0e0;  
+}
+.version {
+    display: flex;
+    margin: 10px 0 10px 18px;
+}
+.you {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    right: 10px;
+}
+.tx {
+    width: 30px; 
+    height: 30px; 
+    display: block;
+}
+.xx {
+    width: 30px; 
+    height: 30px; 
+    display: block;
+}
+.weui-cell__bd {
+    text-align: left;
+    margin-left: 10px;
+}
+.weui-cell {
+    background-color: #fff;
+}

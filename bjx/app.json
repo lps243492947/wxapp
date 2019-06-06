@@ -4,17 +4,30 @@
     "pages/message/message",
     "pages/mine/mine",
     "componet/navbar/index",
-    "componet/select/select"
+    "componet/select/select",
+    "pages/all/all",
+    "pages/weixinlink/weixinlink/weixinlink",
+    "pages/room/room",
+    "pages/weixinlink/xiazailink/xiazailink",
+    "pages/minejs/minejs",
+    "pages/minejs/js/js",
+    "pages/weixinlink/invitationlink/invitationlink",
+    "pages/set/set",
+    "pages/weixinlink/agreement/agreement",
+    "pages/weixinlink/privacy/privacy",
+    "pages/help/help",
+    "pages/minejs/js/addjs/addjs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f7f7f7",
     "navigationBarTitleText": "速配",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#515151",
-    "backgroundColor": "#fff",
+    "color": "#616161",
+    "backgroundColor": "#f7f7f7",
+    "selectedColor": "#212121",
     "list": [
       {
         "pagePath": "pages/index/index",

@@ -1,0 +1,24 @@
+/* pages/minejs/minejs.wxss */
+.container {
+    width: 80%;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.right {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}

@@ -1,0 +1,22 @@
+<!--pages/set/set.wxml-->
+<view class="function appearance">
+    <view class="weui-cell weui-cell_access" bindtap="agreement">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">用户协议</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="privacy">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">隐私政策</view>
+            </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">关于我们</view>
+            </view>
+            <view class="weui-cell__ft_special">V0.3.4</view>
+            <image class="you" src="../../images/you.png"></image>
+    </view>
+</view>

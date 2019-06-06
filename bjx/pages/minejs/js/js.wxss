@@ -1,0 +1,19 @@
+/* pages/minejs/js/js.wxss */
+.btn {
+    width: 345px;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: #ffe925;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    line-height: 35px;
+}
+.text {
+    font-size: 14px;
+    color: #e0e0e0;
+    text-align: center;
+    line-height: 150vw;
+  }

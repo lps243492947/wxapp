@@ -1,0 +1,11 @@
+<!--pages/minejs/minejs.wxml-->
+<navigator url="js/js" class="weui-media-box weui-media-box_appmsg container" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+        <image class="weui-media-box__thumb img" src="../../images/logo.png" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title">LOL</view>
+        <view class="weui-media-box__desc">已保存角色 1</view>
+        <image class="right" src="../../images/you.png" />
+    </view>
+</navigator>

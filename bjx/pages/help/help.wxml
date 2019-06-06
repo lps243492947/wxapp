@@ -1,0 +1,34 @@
+<!--pages/help/help.wxml-->
+<view class="problem">常见问题</view>
+<view class="function appearance">
+    <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">大神相关</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="minejs">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">老板相关</view>
+            </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="invitation">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">账号问题</view>
+            </view>
+            <image class="you" src="../../images/you.png"></image>
+    </view>
+     <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">玩家交流群</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+</view>
+<view class="footer">
+  <view class="btn">
+    <button class="btn1">意见与反馈</button>
+    <button class="btn2">联系客服</button>
+  </view>
+</view>

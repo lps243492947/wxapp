@@ -1,2 +1,52 @@
 <!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="width: {{long}}px; left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+                    <view class="time">{{nowDate}}</view>
+                    <view class="content">
+                        <image class="wuyi" src="../../images/wuyi.jpg"></image>
+                        <view class="text">■匹配太慢?领取优惠卷匹配更轻松!■</view>
+                        <navigator url="/pages/weixinlink/weixinlink/weixinlink" bindtap="jump" open-type="switchTab" hover-class="other-navigator-hover">
+                            <view class="details">
+                                <view class="version">
+                                    <view>查看详情</view>
+                                    <image class="you" src="../../images/you.png"></image>
+                                </view>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                            <image class="tx" src="../../images/tx.png"/>
+                        </view>
+                        <view class="weui-cell__bd">
+                        <view>系统消息</view>
+                        <view style="font-size: 13px;color: #888888;">暂无系统消息</view>
+                    </view>
+                    </view>
+                    <view class="weui-cell">
+                        <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                            <image class="xx" src="../../images/xx.png"/>
+                        </view>
+                        <view class="weui-cell__bd">
+                        <view>匹配提醒</view>
+                        <view style="font-size: 13px;color: #888888;">暂无匹配提醒</view>
+                    </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

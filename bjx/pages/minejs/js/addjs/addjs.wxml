@@ -1,0 +1,25 @@
+<!--pages/minejs/js/addjs/addjs.wxml-->
+<!-- miniprogram/pages/address/addAddress/addAddress.wxml -->
+<view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">区服</view>
+    </view>
+    <view class="weui-cell__bd">
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+    <view class="picker">
+      {{multiArray[0][multiIndex[0]]}}{{multiArray[1][multiIndex[1]]}}
+    </view>
+    <image class="you" src="../../../../images/you.png"></image>
+  </picker>
+  </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">游戏角色昵称</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input value="{{userName}}" class="weui-input" placeholder-style="color: #e5e5e5;font-size: 14px;" placeholder="请输入角色昵称" bindinput="userNameInput" />
+    </view>
+  </view>
+</view>

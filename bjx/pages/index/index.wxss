@@ -1,0 +1,81 @@
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 80px;
+}
+.footer {
+    background-color: #fff;
+    width: 90%;
+    height: 210px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+.btn {
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #ffe925;
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    line-height: 50px;
+}
+.scroll-view-x {
+    width: 500px;
+    display: flex;
+    position: relative;
+}
+.scroll-x-item {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    opacity: .5;
+}
+.dj {
+    opacity: 1;
+    box-shadow:0 0 10px #686868;
+}
+.text {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.on {
+    filter: blur(5px);
+}
+.imgs {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 10px;
+}
+.all {
+    font-size: 12px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}

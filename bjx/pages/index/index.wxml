@@ -1,2 +1,19 @@
 <!--index.wxml-->
 <Select prop-array="{{selectArray}}" bind:myget="getDate"></Select>
+<view class="container">
+    <view class="header">
+        <image src="../../images/bjx.jpg" class="img" />
+    </view>
+    <view class="footer">
+        <botton class="btn" loading="{{loading}}" disabled="{{disabled}}" bindtap="primary">开始匹配</botton>
+            <scroll-view scroll-x class="scroll-view-x" style="width:100%; height:73%"> 
+                <view class="scroll-view-x">
+                    <view class="{{isTag==item.tag ? 'scroll-x-item dj' : 'scroll-x-item'}}" wx:for="{{scrolls}}" data-id="{{item.tag}}" wx:key="{{index}}" bindtap="tagChoose">
+                        <view class="text">{{item.name}}</view>
+                        <image class="imgs" src="{{item.images}}"></image>
+                    </view>
+                </view>
+            </scroll-view>
+        <navigator class="all" url="/pages/all/all" open-type="redirect" hover-class="other-navigator-hover">全部模式 ></navigator>
+    </view>
+</view>

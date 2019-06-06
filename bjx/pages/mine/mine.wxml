@@ -1,2 +1,61 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="container">
+    <view class="userinfo">
+        <image class="avatar" src='{{userInfo.avatarUrl}}'></image>
+        <view class="information">
+            <view class="nickname">{{userInfo.nickName}}</view>
+            <view class="bjxid">北极熊ID:1195195</view>
+        </view>
+    </view>
+</view>
+<view class="bjxGod">
+        <view class="details" bindtap="openConfirm">
+            <view class="version" >
+                <view>大神认证</view>
+                <image class="you" src="../../images/you.png"></image>
+            </view>
+        </view>
+</view>
+<view class="function appearance">
+    <view class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">我的组队</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="minejs">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">我的角色</view>
+            </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="invitation">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">邀请返利</view>
+            </view>
+            <view class="weui-cell__ft_special">现金拿不停</view>
+            <image class="you" src="../../images/you.png"></image>
+    </view>
+</view>
+<view class="help appearance">
+    <view class="weui-cell weui-cell_access" bindtap="loadApp">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">下载APP</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+        </view>
+        <view class="weui-cell weui-cell_access" bindtap="help">
+            <view class="weui-cell__bd">
+                <view style="display: inline-block; vertical-align: middle">帮助与反馈</view>
+            </view>
+            <image class="you" src="../../images/you.png"></image>
+    </view>
+</view>
+<view class="set appearance">
+    <view class="weui-cell weui-cell_access" bindtap="set">
+        <view class="weui-cell__bd">
+            <view style="display: inline-block; vertical-align: middle">设置</view>
+        </view>
+            <image class="you" src="../../images/you.png"></image>
+    </view>
+</view>

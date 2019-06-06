@@ -1,0 +1,18 @@
+/* pages/set/set.wxss */
+.function{
+  margin-top: 10px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.you {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.weui-cell__ft_special {
+  position: relative;
+  right: 15px;
+}

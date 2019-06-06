@@ -1,0 +1,12 @@
+/* pages/minejs/js/addjs/addjs.wxss */
+.you {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.weui-label {
+  line-height: 50px;
+}

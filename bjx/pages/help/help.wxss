@@ -1,0 +1,40 @@
+/* pages/help/help.wxss */
+.problem {
+  font-size: 12px;
+  color: #acaaaa;
+  margin: 10px 0 10px 15px;
+}
+.function{
+  margin-top: 10px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.you {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+.btn1 {
+  border-radius: 0;
+  width: 35vw;
+  background-color: #4a4c5b;
+  color: #fff;
+}
+.btn2 {
+  border-radius: 0;
+  width: 65vw;
+  background-color: #ffda0a;
+  color: #000;
+}

@@ -1,20 +1,48 @@
 // pages/message/message.js
+var util = require('../../utils/util.js');
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    tabs: ["公告", "私信"],
+    long: 0,
+    activeIndex: 0,
+    sliderOffset: 0,
+    nowDate: ''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad: function () {
+    var that = this;
+    this.setData({
+      nowDate: util.formatTime(new Date())
+    });
+    wx.getSystemInfo({
+        success: function(res) {
+            that.setData({
+              long: wx.getSystemInfoSync().windowWidth / 2,
+              sliderLeft: that.data.tabs.length / 2,
+              sliderOffset: that.data.tabs.length
+            });
+        }
+    });
   },
-
+  tabClick: function (e) {
+    this.setData({
+        sliderOffset: e.currentTarget.offsetLeft,
+        activeIndex: e.currentTarget.id
+    });
+},
+  jump: function() {
+    wx.navigateTo({
+      url: '../weixinlink/weixinlink/weixinlink'
+    })
+  },
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

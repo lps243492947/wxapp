@@ -1,0 +1,5 @@
+<!--pages/minejs/js/js.wxml-->
+<view class="container">
+    <view wx:if="{{userName === ''}}" class="text">暂无角色，点击按钮立即添加一个吧</view>
+    <botton class="btn" loading="{{loading}}" disabled="{{disabled}}" bindtap="primary">添加新角色</botton>
+</view>
