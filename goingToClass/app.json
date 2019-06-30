@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/clock/clock"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "今天去不去上课",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#616161",
+    "backgroundColor": "#f7f7f7",
+    "selectedColor": "#60aff9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouyed.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "iconPath": "images/naozhong.png",
+        "selectedIconPath": "images/naozhongd.png",
+        "text": "闹钟"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

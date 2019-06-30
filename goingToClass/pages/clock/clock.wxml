@@ -1,0 +1,11 @@
+<view class="container">
+		<view class="clock">
+			<view>{{listData[0].countDown}}</view>
+		</view>
+		<view wx:if="{{number == 0}}">
+			<botton class="btn" loading="{{loading}}" disabled="{{disabled}}" bindtap="primary">点击抽奖</botton>
+		</view>
+		<view wx:if="{{number != 0}}">
+			<botton class="btn" loading="{{loading}}" disabled="{{disabled}}" bindtap="primary_fq">放弃计时</botton>
+		</view>
+</view>
