@@ -29,12 +29,12 @@ Page({
       });
       this.setCountDown();
   },
-  primary: function() {
+  primary () {
     wx.switchTab({
         url:"/pages/index/index"
     })
   },
-  primary_fq: function() {
+  primary_fq () {
     let self = this
     var key = 'listData[0].remainTime'
     self.setData({
@@ -45,7 +45,7 @@ Page({
   /**
    * 倒计时
    */
-  setCountDown: function(){ 
+  setCountDown () {
     let time = 1000;
     let { listData } = this.data;
     let list = listData.map((e) =>{
@@ -80,7 +80,7 @@ Page({
   /**
    * 格式化时间
    */
-  getFormat: function (msec){
+  getFormat (msec) {
     let ss = parseInt(msec / 1000);
     let ms = parseInt(msec % 1000);
     let mm = 0;
